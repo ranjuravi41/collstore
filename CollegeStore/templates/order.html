@@ -1,0 +1,19 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block content %}
+{% if user.is_authenticated %}
+<section class="vh-100">
+  <div class=" container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class=" col col-xl-5" style="">
+        <a href="{% url 'Store:conf_order' %}" style="text-decoration:none">
+          <div class="card align-items-center btn btn-outline-secondary custom-button" style="box-shadow: 0 18px 40px 0px #1f1f1f1a;border-radius: 60px;">
+          <B>ORDER</B>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E225" />
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="inmm.travelproj2.travelproj2.travelapp3.urls.name" />
+          <option value="django.urls" />
+          <option value="myproject1.settings.pymysql" />
+          <option value="dict.info" />
+          <option value="ecommerce_project.settings.urlpatterns" />
+          <option value="server.BOTTOM" />
+          <option value="BOTTOM" />
+          <option value="server.END" />
+          <option value="client.print" />
+          <option value="client.input" />
+          <option value="client.bytes" />
+          <option value="server.bytes" />
+          <option value="tkinter.*" />
+          <option value="rest_framework.generics.CreateApiView" />
+          <option value="viddeo.ord" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
